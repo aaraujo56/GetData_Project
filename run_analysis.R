@@ -1,4 +1,6 @@
-#Run data merge and cleaning
+# Coursera Getting and Cleaning Data Course Project
+
+# analysis by A. Araujo
 
 # Using the dplyr library
 library(dplyr)
@@ -63,7 +65,8 @@ complete.train <- activity.labeled.train %>% select(activity_label) %>%
 # Bind together rows of both datasets
 complete.data <- bind_rows(complete.train,complete.test)
 
-# Keep activity label and subjects, then only get variables with mean or std
+# Keep activity label and subjects(first 2 columns), 
+# then only get variables with mean or std in their name
 complete.data <- select(complete.data,1:2,contains("mean"),contains("std"))
 
 #### Part 2
