@@ -2,7 +2,7 @@
 
 ##CODEBOOK
 
-Table contains 88 variables and 180 total observations of the *aggregated mean* within each subject and activity.
+Table contains 88 variables and 180 total observations of the *aggregated mean* within each subject and activity. 
 
 ### Subject and activity identifiers
 
@@ -21,7 +21,7 @@ Table contains 88 variables and 180 total observations of the *aggregated mean* 
 
 - tBodyAcc.mean...X/Y/Z
 - tGravityAcc.mean...X/Y/Z
--- tBodyAccJerk.mean...X/Y/Z
+- tBodyAccJerk.mean...X/Y/Z
 - tBodyGyro.mean...X/Y/Z
 - tBodyGyroJerk.mean...X/Y/Z
 - tBodyAccMag.mean..
@@ -67,6 +67,8 @@ Table contains 88 variables and 180 total observations of the *aggregated mean* 
 - tBodyAccJerkMag.std..
 - tBodyGyroMag.std..
 - tBodyGyroJerkMag.std..
+
+####Fast Fourier transform applied to signals
 - fBodyAcc.std...X/Y/Z
 - fBodyAccJerk.std...X/Y/Z
 - fBodyGyro.std...X/Y/Z
